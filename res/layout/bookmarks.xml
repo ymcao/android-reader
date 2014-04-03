@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.yamin.reader.view.MyListView
+        android:id="@+id/this_book"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_default_round"
+        android:cacheColorHint="#00000000"
+        android:layout_margin="8dp"
+        android:scrollbars="none" />
+
+    <com.yamin.reader.view.MyListView
+        android:id="@+id/all_books"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/list_default_round"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" />
+
+    <com.yamin.reader.view.MyListView
+        android:id="@+id/search_results"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/list_default_round"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" />
+
+</RelativeLayout>

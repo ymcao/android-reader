@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<!-- 欢迎界面 -->
+	<ImageView 
+	    android:id="@+id/iv_welcome"
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:src="@drawable/bg_welcome"
+		android:scaleType="fitXY"
+	    />
+</RelativeLayout>

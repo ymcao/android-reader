@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    >
+
+<LinearLayout
+  
+  android:id="@+id/detail"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="10dip">
+  
+  <LinearLayout
+  	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="5dip"
+	android:orientation="vertical"
+  >
+  	<TextView
+  		android:id="@+id/detail_content"
+  		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:textSize="17dip"
+		android:textColor="#000"
+  	/>
+  	
+  	<LinearLayout
+	  	android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:layout_marginTop="3dip"
+		android:layout_marginBottom="5dip"
+		android:background="#777"
+  	/>
+  	
+  </LinearLayout>
+  
+  <RelativeLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_marginLeft="5dip"
+  >
+  	<ImageView
+  		android:id="@+id/detail_icon"
+  		android:layout_width="60dip"
+  		android:layout_height="60dip"
+  		android:layout_alignParentLeft="true"
+  	/>
+  	
+  	<LinearLayout
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_toRightOf="@id/detail_icon"
+  		android:layout_marginLeft="5dip"
+  	>
+  		<TextView
+  			android:id="@+id/detail_title"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textSize="17dip"
+  			android:textColor="#ff9900"
+  		/>
+  		
+  		<LinearLayout
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:orientation="horizontal"
+  		>
+  			<TextView
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="版本"
+  				android:textColor="#777"
+  			/>
+  			
+  			<TextView
+  				android:id="@+id/detail_version"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:textColor="#777"
+  			/>
+  		</LinearLayout>
+  		
+  		<LinearLayout
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:orientation="horizontal"
+  		>
+  			<TextView
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="大小"
+  				android:textColor="#777"
+  			/>
+  			
+  			<TextView
+  				android:id="@+id/detail_filesize"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:textColor="#777"
+  			/>
+  		</LinearLayout>
+  	
+  	</LinearLayout>
+  	
+  	<LinearLayout
+  		android:layout_width="wrap_content"
+  		android:layout_height="fill_parent"
+  		android:orientation="vertical"
+  		android:gravity="center"
+  		android:layout_alignParentRight="true"
+  	>
+  		
+  		<Button
+  			android:id="@+id/detail_downButton1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="免费下载"
+  		/>
+  	</LinearLayout>
+  
+  </RelativeLayout>
+  
+  <LinearLayout
+  	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:layout_margin="3dip"
+  >
+  	<TextView
+  		android:id="@+id/detail_description"
+  		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#777"
+  	/>
+  	
+  	<LinearLayout
+	  	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+  	>
+  		<ImageView
+  			android:id="@+id/detail_image1"
+	  		android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+  		/>
+  		<LinearLayout
+  			android:layout_width="7dip"
+			android:layout_height="wrap_content"
+  		/>
+  		<ImageView
+  			android:id="@+id/detail_image2"
+	  		android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+  		/>
+  	</LinearLayout>
+  	
+  	<Button
+  		android:id="@+id/detail_downButton2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="立即免费下载"
+		android:layout_marginTop="10dip"
+  	/>
+  	
+  </LinearLayout>
+</LinearLayout>
+</ScrollView>

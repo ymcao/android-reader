@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">易读阅读器</string>
+    <string name="tab_shujia">本地书库</string>
+    <string name="ic_menu_recent">最近</string>
+    <string name="ic_menu_fav">收藏</string>
+    <string name="tab_settings">阅读设置</string>
+    <string name="book_read_settings">阅读设置</string>
+    <string name="book_file_manager">本地文件</string>
+    <string name="menu_scan">快速扫描</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_more">更多</string>
+    <string name="menu_about">关于软件</string>
+    <string name="menu_listview">列表视图</string>
+    <string name="menu_gridview">表格视图</string>
+    <string name="menu_exit">退出软件</string>
+    <string name="menu_feedback">反馈</string>
+    <string name="menu_myplace">帐号</string>
+    <string name="menu_share">分享软件</string>
+    <string name="read_no">未读</string>
+    <string name="menu_file">本地文件</string>
+    <string name="no_file">没有文件！</string>
+    <string name="baidu">百度云盘</string>
+    <string name="jinshan">金山快盘</string>
+    <string name="about_tip">  ●Android系统原生界面风格.\n
+          ●基于开源FbreaderJ 1.8.2源码,功能齐全.\n
+          ●扫描搜索您的SD卡中支持格式的文档.\n
+          ●TXT,EPUB,HTML,FB2,MOBI.OEB格式支持.\n
+          ●其他格式的小说还在开发中包括umd,chm.\n
+          ●此软件为第一版我还在不断优化和完善中.\n
+          ●希望您多多提出宝贵的意见和反馈,支持开源.\n
+          ●caoyamin2012@gmail.com.\n
+       </string>
+    <string name="empty_string"></string>
+    <string name="enable_sd_card">存储卡不可用!</string>
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">检索</string>
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">检索关键字</string>
+
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\": </item>
+        <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+    <string name="title_toc">本书目录</string>
+    <string name="read_anim">翻阅动画</string>
+    <string name="menu_recomend">精品推荐</string>
+    <string name="simple_declaring">声明式横幅(Banner)广告</string>
+    <string name="read_book">阅读</string>
+    <string name="favorite_book">收藏</string>
+    <string name="book_details">详细信息:</string>
+     <string name="book_favorite">我的收藏</string>
+    <string name="share_book">分享</string>
+     <string name="del_book">删除</string>
+      <string name="eit_book">编辑</string>
+</resources>

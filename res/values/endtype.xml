@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_menu">
+        <item>书架</item>
+        <item>收藏</item>
+    </string-array>
+    <string-array name="spinner_anim">
+        <item>翻书动画</item>
+        <item>滚屏动画</item>
+        <item>移动动画</item>
+    </string-array>
+    <string-array name="imageFile">
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.png</item>
+        <item>.gif</item>
+    </string-array>
+    <string-array name="audioFile">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.midi</item>
+        <item>.acc</item>
+    </string-array>
+    <string-array name="packageFile">
+        <item>.rar</item>
+        <item>.zip</item>
+        <item>.jar</item>
+    </string-array>
+    <string-array name="mobiFile">
+        <item>.mobi</item>
+    </string-array>
+    <string-array name="oebFile">
+        <item>.oeb</item>
+    </string-array>
+    <string-array name="fb2File">
+        <item>.fb2</item>
+    </string-array>
+    <string-array name="epubFile">
+        <item>.epub</item>
+    </string-array>
+    <string-array name="webFile">
+        <item>.html</item>
+    </string-array>
+    <string-array name="txtFile">
+        <item>.txt</item>
+    </string-array>
+    <string-array name="apk">
+        <item>.apk</item>
+    </string-array>
+
+</resources>

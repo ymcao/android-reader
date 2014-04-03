@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/aboutDilogTxt"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/line"
+        android:textColor="@color/holo_blue_light"
+        android:text="关于软件"
+        android:textSize="18dip" />
+
+    <View
+        android:id="@+id/divideline"
+        android:layout_width="160dp"
+        android:layout_height="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aboutDilogTxt"
+        android:background="@color/holo_blue_light"></View>
+
+    <TextView
+        android:id="@+id/numOfTxtFiles"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/divideline"
+        android:textColor="#808080"
+        android:paddingTop="5dp"
+        android:text="@string/about_tip"
+        android:textSize="14dip" />
+
+</RelativeLayout>

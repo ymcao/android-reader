@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp" >
+
+    <RelativeLayout
+        android:id="@+id/cover"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dip"
+        android:layout_height="111dip" >
+
+        <TextView
+            android:id="@+id/tvBookProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvBookName"
+            android:layout_centerHorizontal="true"
+            android:text="60%"
+            android:textColor="@color/holo_blue_dark"
+            android:textSize="10dip" />
+
+        <TextView
+            android:id="@+id/tvBookName"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:textSize="11dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvBookSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBookName"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="4dp"
+            android:text="100.0KB"
+            android:textSize="12dp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/bookshelfFileSelectIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/checkbox_unselect"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

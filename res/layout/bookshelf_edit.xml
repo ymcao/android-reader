@@ -1,0 +1,51 @@
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/ab_bottom_solid_light_holo">
+
+        <ImageView
+            android:id="@+id/imgDeleteIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/button_del_bg" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="2dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgDeleteIcon"
+            android:background="#cdc6c6"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/numOfBookFiles"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/line"
+            android:layout_marginLeft="10dp"
+            android:textColor="#808080"
+            android:textSize="16dip" />
+          <ImageView
+            android:id="@+id/imgUnAllIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgAllIcon"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/operation_button_cancel" />
+        
+         <ImageView
+            android:id="@+id/imgAllIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/operation_button_selectall" />
+            
+        </RelativeLayout>

@@ -1,0 +1,55 @@
+<com.yamin.reader.view.CustomScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/main_bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/bookshelf_nothing"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/empty_icon"
+                android:layout_width="131dp"
+                android:layout_height="132dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/empty_view_logo_light" />
+
+            <TextView
+                android:id="@+id/detail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/empty_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:text="您还未添加书籍，赶快去添加吧"
+                android:textColor="#ff545454"
+                android:textSize="12.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bookshelf_something"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <com.yamin.reader.view.MyGridView
+                android:id="@+id/gdBookshelf"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:columnWidth="80dp"
+                android:horizontalSpacing="15dp"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="25dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</com.yamin.reader.view.CustomScrollview>

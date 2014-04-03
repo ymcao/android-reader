@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_edit"
+        android:showAsAction="always"
+        android:title="@string/eit_book"/>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_menu_overflow"
+        android:showAsAction="always"
+        android:title="@string/menu_more">
+
+        <menu >
+
+            <item
+                android:id="@+id/menu_file"
+                android:icon="@drawable/menu_file"
+                android:showAsAction="always"
+                 android:orderInCategory="1"
+                android:title="@string/menu_file"/>
+
+            <item
+                android:id="@+id/menu_scan"
+                android:icon="@drawable/filter_import"
+                android:showAsAction="always"
+                android:orderInCategory="2"
+                android:title="@string/menu_scan"/>
+
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_menu_share"
+                android:orderInCategory="3"
+                android:showAsAction="always"
+                android:title="@string/menu_share"/>
+           
+            <item
+                android:id="@+id/menu_about"
+                android:icon="@drawable/ic_menu_about"
+                android:orderInCategory="4"
+                android:showAsAction="always"
+                android:title="@string/menu_about"/>
+
+            <item
+                android:id="@+id/menu_exit"
+                android:icon="@drawable/menu_exit"
+                android:orderInCategory="5"
+                android:showAsAction="always"
+                android:title="@string/menu_exit"/>
+        </menu>
+    </item>
+
+</menu>

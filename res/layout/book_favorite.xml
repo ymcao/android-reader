@@ -1,0 +1,49 @@
+<com.yamin.reader.view.CustomScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/favorite_nothing"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:visibility="gone" >
+            <ImageView
+                android:id="@+id/empty_icon"
+                android:layout_width="131dp"
+                android:layout_height="132dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/empty_view_logo_light" />
+              <TextView
+                android:id="@+id/detail_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/empty_icon"
+                android:text="您还未添收藏，赶快去添加吧"
+                android:textColor="#ff545454"
+                android:textSize="12.0sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/favorite_something"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+            <com.yamin.reader.view.MyListView
+                android:id="@+id/lvBookFavorite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/list_default_round"
+                android:cacheColorHint="#00000000"
+                android:divider="@drawable/shape_line" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</com.yamin.reader.view.CustomScrollview>

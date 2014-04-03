@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/aboutDilogTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/line"
+        android:text="提示"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="18dip" />
+
+    <View
+        android:id="@+id/divideline"
+        android:layout_width="160dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/aboutDilogTxt"
+        android:layout_centerHorizontal="true"
+        android:background="@color/holo_blue_light" >
+    </View>
+
+    <TextView
+        android:id="@+id/numOfTxtFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divideline"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="您确定要退出软件吗?"
+        android:textColor="#808080"
+        android:textSize="14dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numOfTxtFiles"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_edit_bg"
+            android:text="确定"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_edit_bg"
+            android:text="取消"
+            android:textSize="12dip" />
+    </LinearLayout>
+
+</RelativeLayout>
